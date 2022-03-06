@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<resources>
+   <string name="remove_contact_title_alert">Kontaktieren Sie den Kontakt (en)</string>
+   <string name="remove_group_title_alert">Gruppe entfernen</string>
+   <string name="remove_contact_confirmation">Möchten Sie sicher, dass Sie den ausgewählten Kontakt (en) entfernen möchten?</string>
+   <string name="remove_group_confirmation">Sind Sie sicher, dass Sie die ausgewählte Gruppe entfernen möchten?</string>
+   <string name="delete_group_title_alert">Gruppe löschen</string>
+   <string name="delete_group_confirmation">Sind Sie sicher, dass Sie die ausgewählte Gruppe löschen möchten?</string>
+</resources>
