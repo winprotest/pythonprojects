@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='ASCII'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="MyApp/Base.lproj/Main.storyboard" datatype="plaintext" xml:space="preserve" source-language="en" target-language="fr">
+    <header>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
+    </header>
+    <body>
+      <trans-unit id="app.name">
+        <source>TODO List</source>
+        <target>Seznam opravil</target>
+      </trans-unit>
+      <trans-unit id="app.login.text">
+        <source>Enter your credentials below to login</source>
+        <target>Vnesite poverilnice spodaj, da se prijavite</target>
+      </trans-unit>
+      <trans-unit id="app.login.message.success">
+        <source>Login successful !\nWelcome back %s !</source>
+        <target>Uspe&#353;na povezava! Nbon nazaj% s!</target>
+      </trans-unit>
+      <trans-unit id="app.login.message.error">
+        <source>Make sure you've entered the correct username and password</source>
+        <target>Prepri&#269;ajte se, da ste vnesli pravilno uporabni&#353;ko ime in geslo</target>
+      </trans-unit>
+      <trans-unit id="app.login.password.forget">
+        <source>I forgot my password</source>
+        <target>pozabil sem svoje geslo</target>
+      </trans-unit>
+      <trans-unit id="app.login.password.reset">
+        <source>Enter your address in the field below. A new password will be sent to your inbox.</source>
+        <target>Vnesite naslov v spodnjem polju.Novo geslo bo poslano v mapo &#187;Prejeto&#171;.</target>
+      </trans-unit>
+      <trans-unit id="app.register.text">
+        <source>Sign up for free! No credit card required!</source>
+        <target>Registrirajte se brezpla&#269;no!Brez kreditne kartice!</target>
+      </trans-unit>
+      <trans-unit id="app.register.message.success">
+        <source>Thank you for signing up !\nPlease check your email address to activate your account.</source>
+        <target>Zahvaljujemo se vam za registracijo! NPlease Preverite svoj e-po&#353;tni naslov, da aktivirate svoj ra&#269;un.</target>
+      </trans-unit>
+      <trans-unit id="app.register.message.error">
+        <source>We were unable to sign you up.\nPlease correct the marked fields.</source>
+        <target>Ne moremo se registrirati. Prosimo, da popravite ozna&#269;ena polja.</target>
+      </trans-unit>
+      <trans-unit id="app.menu.terms">
+        <source>Terms and conditions</source>
+        <target>Pogoji</target>
+      </trans-unit>
+      <trans-unit id="app.users.active:dict/users:dict/one:dict/:string">
+        <source>Just one user online</source>
+        <target>Samo en uporabnik na spletu</target>
+      </trans-unit>
+      <trans-unit id="app.users.active:dict/users:dict/other:dict/:string">
+        <source>There are %d users online</source>
+        <target>Obstaja% uporabnikov na spletu</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="form_label" datatype="plaintext" xml:space="preserve" source-language="en" target-language="fr">
+    <header>
+      <tool tool-id="poeditor.com" tool-name="POEditor"/>
+    </header>
+    <body>
+      <trans-unit id="app.login.text">
+        <source>Username</source>
+        <target>Uporabni&#353;ko ime</target>
+      </trans-unit>
+      <trans-unit id="app.login.pass">
+        <source>Password</source>
+        <target>Geslo</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

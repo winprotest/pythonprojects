@@ -1,0 +1,4 @@
+<resources> 
+    <string name="invalid_group_name">Invalid Group Name. Require minimum 3 Characters</string>
+    <string name="dismiss">Dismiss</string>
+ </resources>	

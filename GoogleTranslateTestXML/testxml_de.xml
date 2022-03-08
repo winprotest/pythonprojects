@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<resources>
+   <string name="invalid_group_name">Ungültiger Gruppenname.Benötigen mindestens 3 Zeichen</string>
+   <string name="dismiss">Zurückweisen</string>
+</resources>
