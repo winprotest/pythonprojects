@@ -17,12 +17,13 @@ This  python file can be used to create translated string xml file from English 
 Suggestion is to upload only small difference file instead of using the whole file for translation as the larger the file is the longer it takes for translation.
 Make sure to use only the valid English string values in xml. There are some xml cleaning is done. It may require more special cleansing of xml file.
 
+Accepted file format : android xml string files, iOS xliff files, iOS *.strings files , *.properties files, *.json files
+
 
 Android Clients
 ===============
 The expected input xml file format is as follow for Android Clients.
 <resources> 
-    <string name="delete_group_title_alert">Delete Group</string>
     <string name="delete_group_confirmation">Are you sure you want to delete the selected group?</string>
 </resources>
 
@@ -35,18 +36,40 @@ Steps
 =====
 1. 	Put the input files and py file in the same folder.
 
-2. 	For example, to translate input xml file named "androidstringdiff.xml" to German/de.
-	Run as below 
-		pytranslate.py -f "androidstringdiff.xml" -l "de"
-	 or 
-		python pytranslate.py -f "androidstringdiff.xml" -l "de"
-		
-	For example, to translate input xliff file named "iOS_fr.xliff" to German/de.
-	Run as below 
-		pytranslate.py -f "iOS_fr.xliff" -l "de"
-	 or 
-		python pytranslate.py -f "iOS_fr.xliff" -l "de"
+2. 	Usage for translating individual file
+	======================================
+	
+	pytranslate.py -i inputfilename -l destinationlanguage
+	pytranslate.py -i inputfilename -o outputfilename -l destinationlanguage
+	pytranslate.py -h
+	E.g. 
+	Translate the input file "test.json" to  German/de and overwrite the input file "test.json".
+	pytranslate.py -i "test.json" -l "de"
 
-3. 	If it is executed successfully, the result translated output file will be generated "androidstringdiff_de.xml" or "iOS_fr_de.xliff" in the same folder.
+	Translate the input file "en.json" to German/de language and put the result in "de.json" file.
+	pytranslate.py -i "en.json" -o "de.json" -l "de"
+
+	Translate the input file "testxml.xml" to Slovak language and put the result in "test_sv." file.
+	pytranslate.py -i "testxml.xml" -l "sv" -o "test_sv.xml"
+
+	usage: pytranslate.py [-h] -i INPUT [-o OUTPUT] -l LAN
+
+	options:
+	  -h, --help            show this help message and exit
+	  -i INPUT, --input INPUT
+							Input file name to translate.
+	  -o OUTPUT, --output OUTPUT
+							Output file name to write the translated strings.
+	  -l LAN, --lan LAN     Destination Language to translate to.
+	  	  
+
+3.  Usage for translating the whole folder
+	======================================
+	1. "iOSTranslated" is the folder/directory name. The files inside the "iOSTranslated" will get translated. The folder name is used as a destination language. 
+		For example, this file "iOSTranslated\cs\cs.xliff" will be translated into "cs" as destination language.
+	Usage:
+		pyfoldertranslate.py "iOSTranslated"
+
+
 
 4. 	If there are some error during translations, the strings that are not translated will be shown in "androidstringdiff_de_nottranslated.txt" or "iOS_fr_de_nottranslated.txt" file.

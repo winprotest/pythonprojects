@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<resources>
-   <string name="remove_contact_title_alert">အဆက်အသွယ် (များ) ကိုဖယ်ရှားပါ</string>
-   <string name="remove_group_title_alert">အုပ်စုဖယ်ရှားပါ</string>
-   <string name="remove_contact_confirmation">ရွေးချယ်ထားသည့်အဆက်အသွယ် (များ) ကိုသင်ဖယ်ရှားလိုပါသလား။</string>
-   <string name="remove_group_confirmation">သင်ရွေးချယ်ထားသောအုပ်စုကိုသင်ဖယ်ရှားလိုပါသလား။</string>
-   <string name="delete_group_title_alert">အုပ်စုကိုဖျက်ပါ</string>
-   <string name="delete_group_confirmation">ရွေးချယ်ထားသည့်အုပ်စုကိုသင်ဖျက်လိုပါသလား။</string>
-</resources>

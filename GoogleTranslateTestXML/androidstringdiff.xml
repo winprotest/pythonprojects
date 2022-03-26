@@ -1,9 +1,4 @@
 <resources>
-    <string name="remove_contact_title_alert">Remove Contact(s)</string>
-    <string name="remove_group_title_alert">Remove Group</string>
-    <string name="remove_contact_confirmation">Are you sure you want to remove the selected contact(s)?</string>
+    <string name="remove_contact_confirmation">Are you sure you want to remove the selected contact?</string>
     <string name="remove_group_confirmation">Are you sure you want to remove the selected group?</string>
-
-    <string name="delete_group_title_alert">Delete Group</string>
-    <string name="delete_group_confirmation">Are you sure you want to delete the selected group?</string>
 </resources>	
